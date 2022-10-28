@@ -74,7 +74,13 @@ line-height: 2;
         padding: 0;
     }
     h1{
-      font-size: 60px;
-      line-height: 1,5;
+      font-size: 44px;
+      line-height: 1.5;
+    }
+    h2{
+        font-size: 44px;
+    }
+    .hero{
+        padding: 80px 20px;
     }
 }
