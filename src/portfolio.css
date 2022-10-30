@@ -80,6 +80,10 @@ line-height: 2;
     h2{
         font-size: 44px;
     }
+    h4{
+        font-size: 14px;
+    }
+    
     .hero{
         padding: 80px 20px;
     }
@@ -92,6 +96,9 @@ line-height: 2;
     }
     nav a{
         font-size: 14px;
+    }
+    .contact-box{
+        padding: 30px;
     }
 }
 .content.container{
@@ -179,4 +186,15 @@ footer{
 .social-links a:hover{
     color: white;
     background-color: var(--secondary-color);
+}
+.contact-box{
+    background: var(--branding-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+.contact-box p{
+    margin: 0;
+}
+h4{
+    font-size: 48px;
 }
