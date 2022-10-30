@@ -151,3 +151,32 @@ nav a:hover {
 nav li.active{
     color: var(--secondary-color);
 }
+.email-link{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    
+}
+.email-link:hover{
+    color: var(--secondary-color);
+}
+ 
+footer{
+    margin: 60px 0;
+}
+.social-links a{
+    margin: 0 20px;
+    color: var(--secondary-color);
+    background-color: var(--branding-color);
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+    
+   
+}
+.social-links a:hover{
+    color: white;
+    background-color: var(--secondary-color);
+}
